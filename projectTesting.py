@@ -8,10 +8,10 @@ import pyttsx3
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=1)
 # Load the trained model and its associated labels
-classifier = Classifier("/Users/ananyaarora/Desktop/Model/keras_model.h5", "/Users/ananyaarora/Desktop/Model/labels.txt")
+classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 offset = 20
 imgSize = 300
-folder = "/Users/ananyaarora/Desktop/Data/Z"
+folder = "Data/Z"
 counter = 0
 # List of labels 
 labels = ["A", "B", "C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
