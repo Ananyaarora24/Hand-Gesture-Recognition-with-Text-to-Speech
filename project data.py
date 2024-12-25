@@ -14,7 +14,7 @@ offset = 20
 imgSize = 300
 
 # Specify the folder to save cropped hand images.
-folder = "C:\\Users\\sarod\\OneDrive\\Desktop\\Data\\R"
+folder = "Data\A"
 
 # Counter for the number of saved images.
 counter = 0
